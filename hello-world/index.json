@@ -23,5 +23,6 @@
   },
   "backend": {
     "imageid": "docker"
-  }
+  },
+  "files": ["App.java"]
 }
