@@ -1,1 +1,1 @@
-git clone https://github.com/f-lopes/spring-boot-example
+git clone https://github.com/f-lopes/spring-boot-example .
