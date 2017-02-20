@@ -23,7 +23,7 @@
 		"hidefinish": false
   },
   "backend": {
-    "imageid": "docker"
+    "imageid": "docker-direct"
   },
   "files": ["Dockerfile"]
 }
