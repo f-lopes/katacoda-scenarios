@@ -12,8 +12,9 @@ Create a Dockerfile with this line:
 FROM flopes:spring-boot-docker:1.0
 ```
 
-`echo 'FROM flopes:spring-boot-docker:1.0' > Dockerfile`{{execute}}
+`echo 'FROM flopes:spring-boot-docker:1.0
+ENV ARTIFACT_NAME spring-boot-example-0.0.1-SNAPSHOT.jar' > Dockerfile`{{execute}}
 
 ### Build your Java application using Docker:
 
-`docker run --rm --name my-maven-project -v "$(pwd)"/spring-boot-example:/usr/src/mymaven -w /usr/src/mymaven maven:3.3.9-jdk-8-alpine mvn clean package`{{execute}}
+`docker run --rm --name my-maven-project -v "$(pwd)":/usr/src/mymaven -w /usr/src/mymaven maven:3.3.9-jdk-8-alpine mvn clean package`{{execute}}
