@@ -16,4 +16,4 @@ FROM flopes:spring-boot-docker:1.0
 
 ### Build your Java application using Docker:
 
-`docker run --rm --name my-maven-project -v "$(pwd)":/usr/src/mymaven -w /usr/src/mymaven maven:3.3.9-jdk-8-alpine mvn clean package`{{execute}}
+`docker run --rm --name my-maven-project -v "$(pwd)"/spring-boot-example:/usr/src/mymaven -w /usr/src/mymaven maven:3.3.9-jdk-8-alpine mvn clean package`{{execute}}
