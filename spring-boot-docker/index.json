@@ -23,12 +23,12 @@
   "files": [
        "Dockerfile"
    ],
-  "environment": {
-    "uilayout": "editor",
-		"hideintro": false,
-		"hidefinish": false
-  },
-  "backend": {
-    "imageid": "docker"
-  }
+   "environment": {
+     "uilayout": "editor-terminal",
+ 		"hideintro": false,
+ 		"hidefinish": false
+   },
+   "backend": {
+     "imageid": "docker-direct"
+   }
 }
