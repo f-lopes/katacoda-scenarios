@@ -9,11 +9,20 @@
       "text": "step1.md"
     },
     {
-      "title": "",
+      "title": "Create a Dockerfile",
       "text": "step2.md"
+    },
+    {
+      "title": "Build the Docker image",
+      "text": "step3.md"
+    },
+    {
+      "title": "Launch the Docker image",
+      "text": "step4.md"
     }],
     "intro": {
       "text": "intro.md",
+      "code": "prepare-env.sh",
       "credits": "Florian Lopes - https://blog.florianlopes.io"
     },
     "finish": {
