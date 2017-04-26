@@ -5,7 +5,7 @@
   "time": "5 minutes",
   "details": {
     "steps": [{
-      "title": "Step 1 - Package a Spring Boot application using Docker ---Base Spring Boot image",
+      "title": "Step 1 - Package & launch a Spring Boot application using Docker",
       "text": "step1.md"
     },
     {
@@ -32,11 +32,6 @@
   "files": [
        "Dockerfile"
    ],
-   "environment": {
-     "uilayout": "editor-terminal",
- 		"hideintro": false,
- 		"hidefinish": false
-   },
    "backend": {
      "imageid": "docker-direct"
    }

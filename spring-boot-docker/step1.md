@@ -8,4 +8,4 @@ Execute `docker run --rm --name my-maven-project -v "$(pwd)":/usr/src/mymaven -w
 
 Place the generated jar into an assets/ folder
 
-`mkdir assets && mv target/hello-spring-boot.jar assets/`{{execute}}
+`mkdir assets && mv target/spring-boot-example-0.0.1-SNAPSHOT.jar assets/`{{execute}}
