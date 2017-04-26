@@ -32,6 +32,11 @@
   "files": [
        "Dockerfile"
    ],
+   "environment": {
+    "uilayout": "terminal",
+ 		"hideintro": false,
+ 		"hidefinish": false
+   },
    "backend": {
      "imageid": "docker-direct"
    }
