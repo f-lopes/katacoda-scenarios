@@ -1,0 +1,1 @@
+[ -f Dockerfile ] && echo "done"

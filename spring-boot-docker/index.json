@@ -6,14 +6,17 @@
   "details": {
     "steps": [{
       "title": "Step 1 - Package a Spring Boot application using Docker",
+      "verify": "step1-verify.sh",
       "text": "step1.md"
     },
     {
       "title": "Create a Dockerfile",
+      "verify": "step3-verify.sh",
       "text": "step2.md"
     },
     {
       "title": "Build the Docker image",
+      "verify": "step3-verify.sh",
       "text": "step3.md"
     },
     {
@@ -24,6 +27,7 @@
       "text": "intro.md",
       "courseData": "prepare-env.sh",
       "code": "prepare-env.sh",
+      "uimessage1": "Docker environment",
       "credits": "Florian Lopes - https://blog.florianlopes.io"
     },
     "finish": {

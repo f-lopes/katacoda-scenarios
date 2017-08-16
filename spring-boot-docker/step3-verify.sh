@@ -1,0 +1,1 @@
+(( $(docker images spring-boot --format "{{.ID}}" | wc -l) >=1 )) && echo \"done\"

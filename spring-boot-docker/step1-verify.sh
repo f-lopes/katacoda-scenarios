@@ -1,0 +1,1 @@
+[ -d /root/spring-boot-example/target ] && echo "done"
