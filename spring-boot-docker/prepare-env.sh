@@ -15,3 +15,5 @@ cd spring-boot-example/
 docker run --rm --name my-maven-project -v "$(pwd)":/usr/src/mymaven -w /usr/src/mymaven -v "/.m2":/root/.m2 maven:3.3.9-jdk-8-alpine mvn verify
 
 ### Your environment is now ready!
+
+cls
